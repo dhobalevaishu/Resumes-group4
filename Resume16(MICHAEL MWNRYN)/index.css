@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300&family=Yellowtail&display=swap');
+
+/* normal text fontfamily link */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Fira+Sans:wght@300&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300;400&family=Yellowtail&display=swap');
+
+/* heading text fontfamily link */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300;400&family=Yellowtail&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.sub-container{
+  box-shadow: 0px 0px 7px 2px #ad9a6f;
+  width: 60vw;
+  background-color: white;
+  margin: auto;
+  height: auto;
+  font-size: 17px;
+  display: grid;
+  grid-template-columns:40% 0 1fr;
+  column-gap: 40px;
+  padding: 30px 40px 20px 40px;
+  position: absolute;
+  top: 32px;
+  left: 299px;
+}
+.paragraphs{
+  text-align: justify;
+}
+.para1{
+  margin-bottom: -22px;
+}
+.f-name,.l-name{
+  font-weight: bold;
+  font-size: 40px;
+}
+.quot{
+  color: rgb(202, 72, 12);
+  font-size: 63px;
+  display: inline-block;
+}
+.con{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.para{
+  position: relative;
+  bottom: 16px;
+}
+.languages{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  column-gap: 20px;
+  text-align: center;
+}
+.circle-para{
+  width: 78px;
+  height: 76px;
+  border-radius: 50%;
+  border: 6px solid transparent;
+  background-image: linear-gradient(white, white), 
+                  linear-gradient(53deg, #e08d26 73%, lightgrey 57%);
+  background-origin: content-box, border-box, border-box, border-box, border-box;
+  background-clip: content-box, border-box, border-box, border-box, border-box;
+}
+.para1{
+  position: relative;
+  bottom: 40px;
+}
+.social1{
+  display: grid;
+  grid-template-columns: 30% 1fr;
+}
+.facebook,.linkedin,.twitter{
+  display: grid;
+  grid-template-columns: 10% 1fr;
+  column-gap: 10px;
+  padding-bottom:7px;
+}
+.qr-code{
+  font-size: 87px;
+  position: relative;
+  bottom: 9px;
+}
+.center{
+  position: relative;
+  top: 25px;
+}
+.lang-name{
+  font-weight: bold;
+}
+.name-para{
+  background-color: #e08d26;
+  color: #fcfaf8;
+  letter-spacing: 3px;
+  word-spacing: 2px;
+  font-size: 13px;
+  display: inline-block;
+  padding: 4px 86px 4px 42px;
+  position: relative;
+  right: 41px;
+  margin-top: 10px;
+}
+.point{
+  width: 13px;
+  height:13px;
+  background-color: whitesmoke;
+  border: 2px solid #e08d26;
+  /* border-radius: 50%; */
+  position: relative;
+  bottom: 3px;
+  /* text-align: right; */
+  float: right;
+}
+.skills-name{
+  margin-top: 10px;
+}
+.progressbar{
+  width: 100%;
+  height: 6px;
+  background-color: gray;
+}
+.fill{
+  background-color: #e08d26;
+}
+.fillprogess1{
+  height: 100%;
+  width:80%;
+}
+.fillprogess2{
+  height: 100%;
+  width:70%;
+}
+.fillprogess3{
+  height: 100%;
+  width:85%;
+}
+.fillprogess4{
+  height: 100%;
+  width:83%;
+}
+.fillprogess5{
+  height: 100%;
+  width:70%;
+}
+.fillprogess6{
+  height: 100%;
+  width:80%;
+}
+.fillprogess7{
+  height: 100%;
+  width:90%;
+}
+.img{
+  width: 79%;
+  height: 152px;
+  border-radius: 50%;
+}
+.bold{
+  margin-top: 20px;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.icon{
+  background-color: #37383a;
+  color: whitesmoke;
+  border-radius: 50%;
+  padding: 9px 9px 8px 11px;
+  font-size: 12px;
+  text-align: center;
+}
+.icon-s{
+  background-color: #37383a;
+  color: whitesmoke;
+  border-radius: 50%;
+  padding: 6px 16px 6px 9px;
+  font-size: 9px;
+  text-align: center;
+}.address,.contact,.skills,.education,.profile,.lang,.experience,.paragraphs{
+  font-family: PT Serif;
+  font-size: 14px;
+}
+.heading-contact,.heading-skills,.heading-education,.heading-interest,.heading-lang,.heading-experience,.heading-social{
+  margin-bottom: 35px;
+  font-family: Libre Franklin;
+}
+.contact-hr,.skills-hr,.education-hr,.lang-hr,.profile-hr,.experience-hr,.social-hr{
+  margin-bottom: 25px;
+  margin-top: 35px;
+}
+.lang-hr{
+  margin-top: 20px;
+}
+.phone,.email,.web,.address {
+  display: grid;
+  grid-template-columns: 20% 1fr;
+  column-gap: 20px;
+}
+.phone,.email,.web {
+  margin-bottom: 15px;
+}
+.expe1,.expe2{
+  margin-bottom: 27px;
+}
+.simple-para{
+  margin-bottom: 10px;
+  margin-top: 8px;
+}
+.education1{
+  margin-bottom: 27px;
+}

@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300&family=Yellowtail&display=swap');
+
+/* normal text fontfamily link */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Fira+Sans:wght@300&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300;400&family=Yellowtail&display=swap');
+
+/* heading text fontfamily link */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300;400&family=Yellowtail&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 50%;
+  margin: auto;
+  height: auto;
+  display: grid;
+  grid-template-columns: 42% 1fr;
+  box-shadow: 0px 0px 7px 2px #ad9a6f;
+  background-color: #f7f8fa;
+}
+.second-div{
+  padding-top: 60px;
+}
+.name-data{
+  width: 10vw;
+  height: 103vh;
+  background-color: #ee9b5c;
+  padding: 30px 60px 50px 100px;
+  margin-top: 190px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ver-data{
+  transform: rotate(-90deg);
+  position: absolute;
+  top: 480px;
+  left: 230px;
+  display: inline-block;
+}
+.name{
+  font-size: 45px;
+  letter-spacing:7px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.name-para{
+  font-size: 20px;
+  letter-spacing: 5px;
+  word-spacing: 3px;
+  float: right;
+  font-family: Libre Franklin;
+  color: rgb(39, 38, 38);
+}
+.img{
+  width: 17%;
+  height: 43%;
+  position: absolute;
+  top: 30px;
+  left: 370px;
+}
+.img img{
+  width: 100%;
+  height: 100%;
+}
+.contact,.hello,.education{
+  font-family: PT Serif;
+  font-size: 13px;
+}
+.heading-contact,.heading-hello,.heading-education{
+  margin-bottom: 20px;
+  margin-top: 40px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 22px;
+}
+.heading-hello{
+  font-size: 30px;
+  color: #ee9b5c;
+  margin-top: 60px;
+}
+.hello{
+  margin-right: 30px;
+}
+.hello-para{
+  text-align: justify;
+}
+.con-para1,.con-para2,.con-para3,.con-para4{
+  margin-bottom: 8px;
+}
+.education1{
+  margin-bottom: 20px;
+}
+.edu-para{
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 6px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.year{
+  font-size: 17px;
+}
+.para1{
+  width: 6%;
+  height: 60px;
+  background-color: #ee9b5c;
+  z-index: 1;
+  position: absolute;
+  left: 555px;
+  top: 0px;
+}
+.para2{
+  width: 2%;
+  height: 100px;
+  background-color: #ee9b5c;
+  z-index: 1;
+  position: absolute;
+  right: 337px;
+  top: 0px;
+}
+.para3{
+  width: 3%;
+  height: 30px;
+  background-color: #313236;
+  z-index: 1;
+  position: absolute;
+  right: 760px;
+  top: 325px;
+}

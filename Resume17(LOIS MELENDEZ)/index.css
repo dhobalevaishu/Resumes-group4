@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300&family=Yellowtail&display=swap');
+
+/* normal text fontfamily link */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Fira+Sans:wght@300&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300;400&family=Yellowtail&display=swap');
+
+/* heading text fontfamily link */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300;400&family=Yellowtail&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.sub-container{
+  box-shadow: 0px 0px 7px 2px #ad9a6f;
+  width: 60vw;
+  background-color: white;
+  margin: auto;
+  height: auto;
+  font-size: 17px;
+  line-height: 25px;
+  /* padding: 30px 40px 20px 40px; */
+  position: absolute;
+  top: 32px;
+  left: 299px;
+  padding-bottom: 40px;
+}
+.first-two{
+  display: grid;
+  grid-template-columns: 30% 0 1fr;
+  column-gap: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 40px;
+  /* margin-bottom: 50px; */
+  /* border: 1px solid black; */
+}
+.second-div{
+  display: grid;
+  grid-template-columns: 30% 0 1fr;
+  column-gap: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+  /* margin-bottom: 50px; */
+  /* border: 1px solid black; */
+}
+.third-div{
+  display: grid;
+  grid-template-columns: 30% 0 1fr;
+  column-gap: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+  /* border: 1px solid black; */
+}
+.expe-data-year,.education-data-year{
+  display: grid;
+  grid-template-columns: 30% 1fr;
+  column-gap: 30px;
+}
+.icon{
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 5px 5px 5px 5px;
+  margin-right: 15px;
+}
+.heading-about,.heading-experience,.heading-education{
+  position: relative;
+  right: 64px;
+}
+.first-hr{
+  height: 103px;
+  position: relative;
+  bottom: -45px;
+}
+.second-hr{
+  height: 451px;
+  position: relative;
+  bottom: -79px;
+}
+.third-hr{
+  height: 220px;
+  position: relative;
+  bottom: -49px;
+}
+.one{
+  position: relative;
+  top: 18px;
+}
+.two{
+  position: relative;
+  top: 121px;
+}
+.three{
+  position: relative;
+  top: 222px;
+}
+.edu-one{
+  position: relative;
+  top: 19px;
+}
+.edu-two{
+  position: relative;
+  top: 96px;
+}
+.edu-three{
+  position: relative;
+  top: 90px;
+}
+.contact i{
+  border: 1px solid rgb(61, 60, 60);
+  border-radius: 50%;
+  padding: 6px 20px 6px 8px;
+  font-size: 14px;
+}
+.first-one{
+  display: grid;
+  grid-template-columns: 20% 1fr;
+  /* height: auto; */
+  background-color: #49484d;
+  padding-top: 50px;
+  padding-left: 40px;
+}
+.img{
+  width: 119px;
+  height: 112px;
+  border-radius: 50%;
+  border: 2px solid rgb(219, 216, 216);
+  background-color: #49484d;
+}
+.img img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  padding: 4px;
+}
+.name{
+  font-size: 41px;
+  color: #dfdfdf;
+}
+.header-span{
+  font-weight: bold;
+  color: whitesmoke;
+}
+.name-para{
+  margin-top: 10px;
+  font-size: 14px;
+  letter-spacing: 3px;
+  color: #dfdfdf;
+}
+.facebook,.linkedin,.twitter{
+  display: grid;
+  grid-template-columns: 10% 1fr;
+  column-gap: 10px;
+  padding-bottom:7px;
+  margin-bottom: 10px;
+}
+.point{
+  width: 14px;
+  height:14px;
+  background-color: whitesmoke;
+  border: 2px solid #49484d;
+  border-radius: 50%;
+  position: relative;
+  bottom: 4px;
+  /* text-align: right; */
+  float: right;
+}
+.skills-name{
+  margin-top: 10px;
+}
+.progressbar{
+  width: 95%;
+  height: 6px;
+  background-color: #dfdfdf;
+  margin-bottom: 17px;
+}
+.fill{
+  background-color: #49484d;
+}
+.fillprogess1{
+  height: 100%;
+  width:80%;
+}
+.fillprogess2{
+  height: 100%;
+  width:70%;
+}
+.fillprogess3{
+  height: 100%;
+  width:85%;
+}
+.fillprogess4{
+  height: 100%;
+  width:83%;
+}
+.fillprogess5{
+  height: 100%;
+  width:70%;
+}
+.fillprogess6{
+  height: 100%;
+  width:80%;
+}
+.fillprogess7{
+  height: 100%;
+  width:90%;
+}
+.bold{
+  margin-top: 20px;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  /* margin-bottom: 10px; */
+}
+.address,.contact,.skills,.education,.profile,.lang,.experience,.paragraphs,.about{
+  font-family: PT Serif;
+  font-size: 14px;
+}
+.heading-contact,.heading-skills,.heading-about,.heading-lang,.heading-experience,.heading-social{
+  margin-bottom: 25px;
+  margin-top: 35px;
+  font-family: Libre Franklin;
+}
+.heading-about,.heading-education{
+  margin-top: 0;
+}
+.phone,.email,.web,.address {
+  display: grid;
+  grid-template-columns: 10% 1fr;
+  column-gap: 20px;
+  margin-bottom: 10px;
+}
+.phone,.email,.web {
+  margin-bottom: 15px;
+}
+.expe1,.expe2{
+  margin-bottom: 27px;
+}
+.education1{
+  margin-bottom: 27px;
+}
+.header-data{
+  /* border: 2px solid black; */
+  margin-bottom: 40px;
+  padding: 20px;
+  color: #fdfcff;
+}
