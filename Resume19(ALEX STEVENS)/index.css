@@ -19,7 +19,7 @@
 }
 .container{
   font-family: Open Sans;
-  width: 58%;
+  width: 60%;
   margin: auto;
   box-shadow: 0px 0px 7px 2px #d4d4d3;
   /* padding: 40px; */
@@ -144,7 +144,7 @@
   grid-template-columns: 30% 1fr;
 }
 .ci{
-  padding-bottom: 10px;
+  padding-bottom: 16px;
 }
 .skill-name,.lang-name{
   position: relative;
@@ -163,7 +163,12 @@
   margin-bottom: 20px;
   font-size: 17px;
 }
-
+.heading-lang{
+  margin-top: 33px;
+}
+.heading-skills{
+  margin-top: 15px;
+}
 
 
 
