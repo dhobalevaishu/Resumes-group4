@@ -121,8 +121,11 @@ body{
   font-size: 14px;
 }
 .first-one{
+  display: grid;
+  grid-template-columns: 25% 1fr;
+  /* height: auto; */
   background-color: #49484d;
-  padding-top: 20px;
+  padding-top: 50px;
   padding-left: 40px;
 }
 .img{
@@ -140,10 +143,14 @@ body{
   padding: 4px;
 }
 .name{
-  font-size: 50px;
+  font-size: 41px;
   color: #dfdfdf;
   font-family: Roboto;
   letter-spacing: 2px;
+}
+.header-span{
+  font-weight: bold;
+  color: whitesmoke;
 }
 .name-para{
   margin-top: 10px;
@@ -251,9 +258,6 @@ body{
   margin-bottom: 40px;
   padding: 20px;
   color: #fdfcff;
-  text-align: center;
-  position: relative;
-  left: -16px;
 }
 .certi-para1{
   margin-bottom: 10px;

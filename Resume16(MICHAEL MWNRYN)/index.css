@@ -18,20 +18,25 @@
   margin: 0;
   box-sizing: border-box;
 }
+body{
+  position: relative;
+  width: 804px;
+  margin: auto;
+}
 .sub-container{
   box-shadow: 0px 0px 7px 2px #ad9a6f;
-  width: 60vw;
+  width: 100%;
   background-color: white;
   margin: auto;
   height: auto;
   font-size: 17px;
+  column-gap: 40px;
+  padding: 30px 40px 20px 40px;
+}
+.grid-data{
   display: grid;
   grid-template-columns:40% 0 1fr;
   column-gap: 40px;
-  padding: 30px 40px 20px 40px;
-  position: absolute;
-  top: 32px;
-  left: 299px;
 }
 .paragraphs{
   text-align: justify;
@@ -76,10 +81,6 @@
   position: relative;
   bottom: 40px;
 }
-.social1{
-  display: grid;
-  grid-template-columns: 30% 1fr;
-}
 .facebook,.linkedin,.twitter{
   display: grid;
   grid-template-columns: 10% 1fr;
@@ -93,7 +94,7 @@
 }
 .center{
   position: relative;
-  top: 25px;
+  top: 10px;
 }
 .lang-name{
   font-weight: bold;
@@ -189,11 +190,11 @@
   font-family: PT Serif;
   font-size: 14px;
 }
-.heading-contact,.heading-skills,.heading-education,.heading-interest,.heading-lang,.heading-experience,.heading-social{
+.heading-contact,.heading-skills,.heading-education,.heading-interest,.heading-lang,.heading-experience,.heading-social,.heading-projects,.heading-certi,.heading-references{
   margin-bottom: 35px;
   font-family: Libre Franklin;
 }
-.contact-hr,.skills-hr,.education-hr,.lang-hr,.profile-hr,.experience-hr,.social-hr{
+.contact-hr,.skills-hr,.education-hr,.lang-hr,.profile-hr,.experience-hr,.social-hr,.project-hr,.certi-hr,.refer-hr{
   margin-bottom: 25px;
   margin-top: 35px;
 }
@@ -217,4 +218,29 @@
 }
 .education1{
   margin-bottom: 27px;
+}
+.p-link{
+  color: rgb(103, 103, 218);
+  margin-bottom: 10px;
+}
+.project-data{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  column-gap: 30px;
+}
+.company-name{
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.date{
+  font-weight: bold;
+}
+.certi-para1{
+  margin-bottom: 20px;
+}
+.certi-hr{
+  width: 290px;
+}
+.projects,.certi,.references{
+  display: none;
 }

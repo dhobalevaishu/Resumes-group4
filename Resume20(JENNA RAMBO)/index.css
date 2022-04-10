@@ -18,24 +18,23 @@
   margin: 0;
   box-sizing: border-box;
 }
+body{
+  width: 750px;
+  position: relative;
+  margin: auto;
+}
 .sub-container{
   box-shadow: 0px 0px 7px 2px #ad9a6f;
-  width: 55vw;
+  width: 750px;
   background-color: white;
-  margin: auto;
   height: 1155px;
   line-height: 25px;
-  /* padding: 30px 40px 20px 40px; */
-  position: absolute;
-  top: 32px;
-  left: 299px;
   font-family: PT Serif;
-  font-size: medium;
+  font-size: 14px;
 }
 .second-div{
   display: grid;
   grid-template-columns: 40% 0 1fr;
-  /* column-gap: 50px; */
 }
 .contact i{
   margin-right: 15px;
